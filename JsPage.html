@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(143, 247, 74);
+        }
+        .box-1,.box-2,.box-3,.box-4,.box-5,.box-6{
+            padding: 50px;
+            border-radius: 20px;
+            margin: 20px 100px 20px 100px;
+            background-color: rgb(99, 96, 96);
+        }
+        b{
+            font-family: georgia;
+            font-size: 40px;
+            color: yellow;
+        }
+        p{
+            font-size: 25px;
+            font-family: courier new;
+            font-weight: bold;
+            color: rgb(7, 7, 97);
+            margin-bottom: 20px;
+        }
+        span{
+            font-family: calibri;
+            color: cornsilk;
+        }
+        table, td, th{
+            border: 0.7px solid black;
+            text-align: center;
+        }
+        table{
+            background-color: black;
+        }
+        td{
+            background-color: darkblue;
+            color: orange;
+            padding: 10px 25px 10px 25px;
+            font-size: 20px;
+            font-family: calibri;
+        }
+        th{
+            background-color: orange;
+            color: darkblue;
+            font-size: 25px;
+            font-family: georgia;
+            padding: 10px 25px 10px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="HtmlPage.html">HTML</a>
+        <a href="CssPage.html">CSS</a>
+        <a href="JsPage.html" class="active">JavaScript</a>
+        <a href="MathPage.html">Mathematics</a>
+    </div>
+    <div class="box-1">
+        <b>Printing text and number on the screen</b> <br><br><br>
+        <p>
+            document.write("write your text") <br>
+            document.write(8)
+        </p>
+        <span>
+            // Output <br>
+            write your text8
+        </span>
+    </div>
+    <div class="box-2">
+        <b>Using of HTML tags inside script</b> <br><br><br>
+        <p>
+            document.write("&lt;h1&gt; Heading Text-1 &lt;/h1&gt;") 
+        </p>
+        <span>
+            // Output <br>
+            <h1>Heading Text-1</h1>
+        </span>
+    </div>
+    <div class="box-3">
+        <b>Fetching HTML element using id selector</b> <br><br><br>
+        <p>
+            document.getElementById("id_name") <br>
+        </p>
+    </div>
+    <div class="box-4">
+        <b>Changing CSS using script</b> <br><br><br>
+        <p>
+            document.getElementById("id_name").style.css_feature <br>
+        </p>
+    </div>
+    <div class="box-5">
+        <b>Getting value from the input tags</b> <br><br><br>
+        <p>
+            document.getElementById("id_name").value <br>
+        </p>
+    </div>
+    <div class="box-6">
+        <b>Mathematical Operators</b> <br><br><br>
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Use</th>
+            </tr>
+            <tr>
+                <td>+</td>
+                <td>Addition</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>Subtraction</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>Multiplication</td>
+            </tr>
+            <tr>
+                <td>/</td>
+                <td>Division</td>
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>Remainder</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

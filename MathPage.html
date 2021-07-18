@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mathematics</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: greenyellow;
+            font-family: calibri;
+        }
+        h1{
+            font-size: 50px;
+            color: rgb(26, 75, 167);
+            text-align: center;
+        }
+        table,th,td{
+            border: 2px solid black;
+            text-align: center;
+        }
+        table{
+            background-color: black;
+            border-radius: 10px;
+        }
+        th{
+            font-size: 35px;
+            color: darkblue;
+            background-color: cornsilk;
+            padding: 5px 25px 5px 25px;
+            transition: 0.5s;
+        }
+        td{
+            font-size: 25px;
+            color: orange;
+            background-color: indigo;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: 0.5s;
+        }
+        span{
+            font-style: italic;
+            font-family: cursive;
+            color: cornsilk;
+            font-weight: normal;
+            transition: 0.5s;
+        }
+        th:hover,td:hover,span:hover{
+            color:rgb(208, 255, 0);
+            background-color: black;
+        }
+        #a{
+            margin-left: 30%;
+        }
+        #b{
+            margin-left: 3%;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="HtmlPage.html">HTML</a>
+        <a href="CssPage.html">CSS</a>
+        <a href="JsPage.html">JavaScript</a>
+        <a href="MathPage.html" class="active">Mathematics</a>
+    </div>
+    <h1>2-D Shapes</h1>
+    <table id="a">
+        <tr>
+            <th>Shape</th>
+            <th>Perimeter</th>
+            <th>Area</th>
+        </tr>
+        <tr>
+            <td>Square</td>
+            <td>
+                <span>4*side</span>
+            </td>
+            <td>
+                <span>side*side</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Rectangle</td>
+            <td>
+                <span>2(length + breadth)</span>
+            </td>
+            <td>
+                <span>length*breadth</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Circle</td>
+            <td>
+                <span>2*π*radius</span>
+            </td>
+            <td>
+                <span>π*radius*radius</span>
+            </td>
+        </tr>
+    </table> <br>
+
+    <h1>3-D Shapes</h1>
+    <table id="b">
+        <tr>
+            <th>Shape</th>
+            <th>Curved SA</th>
+            <th>Total SA</th>
+            <th>Volume</th>
+        </tr>
+        <tr>
+            <td>Cube</td>
+            <td>
+                <span>4*side*side</span>
+            </td>
+            <td>
+                <span>6*side*side</span>
+            </td>
+            <td>
+                <span>side*side*side</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Cuboid</td>
+            <td>
+                <span>2*height(length + breadth)</span>
+            </td>
+            <td>
+                <span>2*(length*breadth + breadth*height + height*length)</span>
+            </td>
+            <td>
+                <span>length*breadth*height</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Cylinder</td>
+            <td>
+                <span>2*π*radius*height</span>
+            </td>
+            <td>
+                <span>2*π*radius(radius + height)</span>
+            </td>
+            <td>
+                <span>π*radius*radius*height</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Sphere</td>
+            <td>
+                <span>4*π*radius*radius</span>
+            </td>
+            <td>
+                <span>4*π*radius*radius</span>
+            </td>
+            <td>
+                <span>1.33*π*radius*radius*radius</span>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
